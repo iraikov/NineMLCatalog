@@ -106,12 +106,7 @@
           <SingleValue>19364.6975077</SingleValue>
         </Property>
         <Initial units="ms" name="t_next">
-          <Component name="exponential_beta">
-            <Definition url="../../randomdistribution/Exponential.xml">ExponentialDistribution</Definition>
-            <Property units="unitless" name="rate">
-              <SingleValue>19364.6975077</SingleValue>
-            </Property>
-          </Component>
+          <SingleValue>5.0</SingleValue>
         </Initial>
       </Component>
     </Cell>

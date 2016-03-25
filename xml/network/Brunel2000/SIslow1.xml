@@ -103,15 +103,10 @@
       <Component name="stim">
         <Definition url="../../input/Poisson.xml">Poisson</Definition>
         <Property units="Hz" name="rate">
-          <SingleValue>9198.23131614</SingleValue>
+          <SingleValue>8714.0</SingleValue>
         </Property>
         <Initial units="ms" name="t_next">
-          <Component name="exponential_beta">
-            <Definition url="../../randomdistribution/Exponential.xml">ExponentialDistribution</Definition>
-            <Property units="unitless" name="rate">
-              <SingleValue>9198.23131614</SingleValue>
-            </Property>
-          </Component>
+          <SingleValue>5.0</SingleValue>
         </Initial>
       </Component>
     </Cell>
