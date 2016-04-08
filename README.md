@@ -25,7 +25,8 @@ to somewhere sensible on your local computer (e.g. $HOME/git/ninemlcatalog),
 and then you can reference the models from other NineML documents using either
 relative or absolute URLs.
 
-1. Running models with Scheme 9ML-toolkit
+Running models with Scheme 9ML-toolkit
+----
 
 Installation instructions for the Scheme 9ML-toolkit can be found at
 http://github.com/iraikov/9ML-toolkit. Once 9ML-toolkit is installed,
@@ -33,11 +34,11 @@ models can be compiled as follows:
 
 Single cell models: 
 
-9ML-singlecell model.xml
+> 9ML-singlecell model.xml
 
 Network models: 
 
-9ML-network model.xml
+> 9ML-network model.xml
 
 The `9ML-network` and `9ML-singlecell` programs will create
 executables named `Sim_{model name}` which accept the following
@@ -53,7 +54,8 @@ For network simulations only:
 * `--extsample=VALUE`:  sample size of neurons for external input recording
 
 
-2. Running models with Python lib9ML
+Running models with Python lib9ML
+----
 
 To install the python module you will need to install the lib9ML python package
 (see http://github.com/INCF/lib9ML). Then simply add the 'python' directory in
