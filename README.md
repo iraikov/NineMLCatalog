@@ -30,7 +30,7 @@ Running models with Scheme 9ML-toolkit
 
 Installation instructions for the Scheme 9ML-toolkit can be found at
 http://github.com/iraikov/9ML-toolkit. Once 9ML-toolkit is installed,
-models can be compiled as follows:
+models can be compiled by invoking the following two programs:
 
 Single cell models: 
 
